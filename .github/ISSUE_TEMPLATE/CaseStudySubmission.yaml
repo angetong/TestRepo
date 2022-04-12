@@ -4,8 +4,7 @@ title: "[Case Study]: "
 body:
   - type: markdown
     attributes:
-      value: |
-        Thanks for taking the time to fill out a new case study!
+      value: "Thanks for taking the time to fill out a new case study!"
   - type: input
     id: contact
     attributes:
@@ -20,7 +19,7 @@ body:
       label: Article Link
       description: Link us where you found the article
       placeholder: ex. google.com
-      value: ""
+      value: none
     validations:
       required: true
   - type: textarea
