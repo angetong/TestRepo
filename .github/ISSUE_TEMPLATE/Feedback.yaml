@@ -5,8 +5,7 @@ labels: ["Feedback"]
 body:
   - type: markdown
     attributes:
-      value: |
-        'Thanks for taking the time to fill out this feedback report!'
+      value: "Thanks for taking the time to fill out this feedback report!"
   - type: input
     id: contact
     attributes:
