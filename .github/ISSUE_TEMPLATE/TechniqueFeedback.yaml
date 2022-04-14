@@ -22,7 +22,7 @@ body:
       placeholder: ex. https://atlas.mitre.org/techniques/AML.T0000
     validations:
       required: false
-  - type: textarea
+  - type: input
     id: newTechnique
     attributes:
       label: New Technique
@@ -35,7 +35,18 @@ body:
     attributes:
       label: Technique Suggestion
       description: |
-        If proposing a new technique, name it here.
+        Please describe why this technique needs changing. 
+        Does the technique need additional information?
+        
+      value: |
+      If this is a new technique, what tactic(s) does it fall under?
+
+      If it's a subtechnique, what is its parent?
+      
+      ## Proposal 
+
+      ## Other links/references
+
     validations:
       required: true
   - type: dropdown
