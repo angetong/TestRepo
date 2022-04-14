@@ -39,13 +39,13 @@ body:
         Does the technique need additional information?
         
       value: |
-      If this is a new technique, what tactic(s) does it fall under?
+        If this is a new technique, what tactic(s) does it fall under?
 
-      If it's a subtechnique, what is its parent?
-      
-      ## Proposal 
+        If it's a subtechnique, what is its parent?
+        
+        ## Proposal 
 
-      ## Other links/references
+        ## Other links/references
 
     validations:
       required: true
